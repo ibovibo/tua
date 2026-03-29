@@ -1,0 +1,122 @@
+{
+  "normal": {
+    "priority": {
+      "label": "priority",
+      "total_demand_mbps": 1432.96,
+      "total_allocated_mbps": 1000.0,
+      "satisfaction_rate": 0.54,
+      "critical_satisfaction_rate": 1.0,
+      "latency_penalty": 58.2665,
+      "efficiency": 1.0,
+      "per_type": {
+        "military": {
+          "count": 10,
+          "satisfaction_rate": 1.0,
+          "avg_demand_mbps": 32.12,
+          "avg_allocated_mbps": 32.12
+        },
+        "emergency": {
+          "count": 20,
+          "satisfaction_rate": 1.0,
+          "avg_demand_mbps": 17.72,
+          "avg_allocated_mbps": 17.72
+        },
+        "civilian": {
+          "count": 70,
+          "satisfaction_rate": 0.3429,
+          "avg_demand_mbps": 10.82,
+          "avg_allocated_mbps": 4.63
+        }
+      }
+    },
+    "baseline": {
+      "label": "baseline",
+      "total_demand_mbps": 1432.96,
+      "total_allocated_mbps": 863.34,
+      "satisfaction_rate": 0.36,
+      "critical_satisfaction_rate": 0.1,
+      "latency_penalty": 335.3307,
+      "efficiency": 0.8633,
+      "per_type": {
+        "military": {
+          "count": 10,
+          "satisfaction_rate": 0.0,
+          "avg_demand_mbps": 32.12,
+          "avg_allocated_mbps": 10.0
+        },
+        "emergency": {
+          "count": 20,
+          "satisfaction_rate": 0.15,
+          "avg_demand_mbps": 17.72,
+          "avg_allocated_mbps": 9.59
+        },
+        "civilian": {
+          "count": 70,
+          "satisfaction_rate": 0.4714,
+          "avg_demand_mbps": 10.82,
+          "avg_allocated_mbps": 8.17
+        }
+      }
+    }
+  },
+  "crisis": {
+    "priority": {
+      "label": "priority",
+      "total_demand_mbps": 1744.63,
+      "total_allocated_mbps": 1000.0,
+      "satisfaction_rate": 0.38,
+      "critical_satisfaction_rate": 0.6333,
+      "latency_penalty": 289.2075,
+      "efficiency": 1.0,
+      "per_type": {
+        "military": {
+          "count": 20,
+          "satisfaction_rate": 1.0,
+          "avg_demand_mbps": 30.8,
+          "avg_allocated_mbps": 30.8
+        },
+        "emergency": {
+          "count": 40,
+          "satisfaction_rate": 0.45,
+          "avg_demand_mbps": 17.08,
+          "avg_allocated_mbps": 9.6
+        },
+        "civilian": {
+          "count": 40,
+          "satisfaction_rate": 0.0,
+          "avg_demand_mbps": 11.14,
+          "avg_allocated_mbps": 0.0
+        }
+      }
+    },
+    "baseline": {
+      "label": "baseline",
+      "total_demand_mbps": 1744.63,
+      "total_allocated_mbps": 908.52,
+      "satisfaction_rate": 0.28,
+      "critical_satisfaction_rate": 0.15,
+      "latency_penalty": 588.296,
+      "efficiency": 0.9085,
+      "per_type": {
+        "military": {
+          "count": 20,
+          "satisfaction_rate": 0.0,
+          "avg_demand_mbps": 30.8,
+          "avg_allocated_mbps": 10.0
+        },
+        "emergency": {
+          "count": 40,
+          "satisfaction_rate": 0.225,
+          "avg_demand_mbps": 17.08,
+          "avg_allocated_mbps": 9.54
+        },
+        "civilian": {
+          "count": 40,
+          "satisfaction_rate": 0.475,
+          "avg_demand_mbps": 11.14,
+          "avg_allocated_mbps": 8.17
+        }
+      }
+    }
+  }
+}
